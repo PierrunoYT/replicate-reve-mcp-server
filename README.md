@@ -9,8 +9,6 @@ A Model Context Protocol (MCP) server that provides access to Reve Create - an i
 
 **🔗 Repository**: [https://github.com/PierrunoYT/replicate-reve-mcp-server](https://github.com/PierrunoYT/replicate-reve-mcp-server)
 
-> **🚀 Ready to use!** Pre-built executable included - no compilation required.
->
 > **✅ Enhanced Reliability**: Server handles missing API keys gracefully without crashes and includes robust error handling.
 
 ## Features
@@ -50,14 +48,14 @@ git clone https://github.com/PierrunoYT/replicate-reve-mcp-server.git
 cd replicate-reve-mcp-server
 ```
 
-### 3. Install Dependencies (Optional)
-
-The server is pre-built, but if you want to modify it:
+### 3. Install Dependencies and Build
 
 ```bash
 npm install
 npm run build
 ```
+
+This will compile the TypeScript source code to JavaScript in the `build/` directory.
 
 ## Configuration
 
@@ -84,7 +82,8 @@ npm run build
 
 **Benefits:**
 - ✅ **Universal Access**: Works on any machine with Node.js
-- ✅ **No Local Installation**: npx downloads and runs automatically
+- ✅ **No Local Installation**: npx downloads, builds, and runs automatically
+- ✅ **Automatic Build**: npx handles compilation automatically
 - ✅ **Always Latest Version**: Pulls from GitHub repository
 - ✅ **Cross-Platform**: Windows, macOS, Linux compatible
 - ✅ **Settings Sync**: Works everywhere you use your MCP client
