@@ -7,7 +7,7 @@
 
 A Model Context Protocol (MCP) server that provides access to Reve Create - an image generation model from Reve that generates detailed visual output closely following your instructions, with strong aesthetic quality and accurate text rendering.
 
-**🔗 Repository**: [https://github.com/PierrunoYT/fal-reve-mcp-server](https://github.com/PierrunoYT/fal-reve-mcp-server)
+**🔗 Repository**: [https://github.com/PierrunoYT/replicate-reve-mcp-server](https://github.com/PierrunoYT/replicate-reve-mcp-server)
 
 > **🚀 Ready to use!** Pre-built executable included - no compilation required.
 >
@@ -46,8 +46,8 @@ A Model Context Protocol (MCP) server that provides access to Reve Create - an i
 ### 2. Clone or Download
 
 ```bash
-git clone https://github.com/PierrunoYT/fal-reve-mcp-server.git
-cd fal-reve-mcp-server
+git clone https://github.com/PierrunoYT/replicate-reve-mcp-server.git
+cd replicate-reve-mcp-server
 ```
 
 ### 3. Install Dependencies (Optional)
@@ -72,7 +72,7 @@ npm run build
       "command": "npx",
       "args": [
         "-y",
-        "https://github.com/PierrunoYT/fal-reve-mcp-server.git"
+        "https://github.com/PierrunoYT/replicate-reve-mcp-server.git"
       ],
       "env": {
         "REPLICATE_API_TOKEN": "your-replicate-api-token-here"
@@ -108,7 +108,7 @@ Add to `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS)
   "mcpServers": {
     "reve-create": {
       "command": "node",
-      "args": ["path/to/fal-reve-mcp-server/build/index.js"],
+      "args": ["path/to/replicate-reve-mcp-server/build/index.js"],
       "env": {
         "REPLICATE_API_TOKEN": "your-replicate-api-token-here"
       }
@@ -127,7 +127,7 @@ Add to your MCP settings file at:
   "mcpServers": {
     "reve-create": {
       "command": "node",
-      "args": ["path/to/fal-reve-mcp-server/build/index.js"],
+      "args": ["path/to/replicate-reve-mcp-server/build/index.js"],
       "env": {
         "REPLICATE_API_TOKEN": "your-replicate-api-token-here"
       },

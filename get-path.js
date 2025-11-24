@@ -20,7 +20,7 @@ const config = {
       "command": "npx",
       "args": [
         "-y",
-        "https://github.com/PierrunoYT/fal-reve-mcp-server.git"
+        "https://github.com/PierrunoYT/replicate-reve-mcp-server.git"
       ],
       "env": {
         "REPLICATE_API_TOKEN": "YOUR_REPLICATE_API_TOKEN_HERE"

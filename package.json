@@ -1,5 +1,5 @@
 {
-  "name": "fal-reve-mcp-server",
+  "name": "replicate-reve-mcp-server",
   "version": "1.0.0",
   "description": "MCP server for Reve Create - image generation model from Reve that generates detailed visual output closely following your instructions, with strong aesthetic quality and accurate text rendering",
   "type": "module",
@@ -14,11 +14,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/PierrunoYT/fal-reve-mcp-server.git"
+    "url": "https://github.com/PierrunoYT/replicate-reve-mcp-server.git"
   },
-  "homepage": "https://github.com/PierrunoYT/fal-reve-mcp-server#readme",
+  "homepage": "https://github.com/PierrunoYT/replicate-reve-mcp-server#readme",
   "bugs": {
-    "url": "https://github.com/PierrunoYT/fal-reve-mcp-server/issues"
+    "url": "https://github.com/PierrunoYT/replicate-reve-mcp-server/issues"
   },
   "keywords": [
     "mcp",
